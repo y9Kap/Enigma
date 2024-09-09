@@ -12,7 +12,6 @@ class Rotor(private val wiring: String, private val notch: Char) {
     }
 
     fun backward(inputChar: Char): Char {
-
         val wiredIndex = wiring.indexOf(inputChar.uppercaseChar())
         val outputIndex = (wiredIndex - position + 26) % 26
         return 'A' + outputIndex
