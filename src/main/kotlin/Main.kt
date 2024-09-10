@@ -77,9 +77,10 @@ fun main() {
 
     val reflector = Reflector(reflectorWiringList)
 
+
+
     val outputCharList = mutableListOf<Char>()
     val inputCharList = mutableListOf<Char>()
-
 
     while (true) {
 
